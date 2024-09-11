@@ -28,7 +28,7 @@ npm install
 ```
 - **Execute os testes**
 
-Os testes foram desenvolvidos usando o framework Jest. Para validar a solução e garantir o funcionamento correto do código, rode o seguinte comando:
+Os testes foram desenvolvidos usando o framework Jest. Para validar a solução e garantir o funcionamento correto do código, execute o seguinte comando:
 
 
 ```sh
