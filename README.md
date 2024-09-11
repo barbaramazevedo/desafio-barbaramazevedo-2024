@@ -22,7 +22,7 @@ Abaixo está um fluxograma que descreve o processo de decisão utilizado para va
 
 - **Instale o [Node.js](https://nodejs.org/en/)**
 
-Instale as dependências do projeto com o seguinte comando:
+Instale as dependências do projeto com o comando:
 ```sh
 npm install
 ```
