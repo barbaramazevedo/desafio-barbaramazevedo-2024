@@ -20,8 +20,7 @@ class RecintosZoo {
       return { erro: "Quantidade inválida" };
     }
 
-    const recintosViaveis = this.recintos
-      .filter((recinto) => {
+    const recintosViaveis = this.recintos.filter((recinto) => {
         // 1. Verificar se o bioma do recinto é compatível com o animal
         const biomaAdequado = especieAnimal.bioma.some((b) =>
           recinto.bioma.includes(b)
@@ -37,9 +36,7 @@ class RecintosZoo {
             return (
               total + especieAnimalExistente.tamanho * existente.quantidade
             );
-          },
-          0
-        );
+          }, 0);
 
         // 3. Se houver mais de uma espécie no recinto, adicionar espaço extra ocupado
         const diferentesEspecies =

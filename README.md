@@ -9,8 +9,8 @@ Este projeto foi desenvolvido como parte de um desafio técnico usando Javascrip
 
 - `Validação de animais`: Identifica espécies inválidas.
 - `Regras de bioma`: Verifica se o recinto é adequado para o bioma do animal.
-- `Convivência entre espécies`: Garante que espécies carnívoras só sejam alocadas com a mesma espécie, e outros critérios de convivência.
-- `Gestão de espaço`: Calcula o espaço disponível em cada recinto para garantir que a quantidade de animais possa ser acomodada.
+- `Convivência entre espécies`: Garante que espécies carnívoras só sejam alocadas com a mesma espécie.
+- `Gestão de espaço`: Calcula o espaço disponível em cada recinto para garantir que a quantidade de animais possa ser acomodada conforme cada dimensão.
 - `Testes automatizados`: Validação da lógica por meio de testes unitários utilizando Jest.
 
 ## 📌 Flowchart
@@ -20,11 +20,14 @@ Abaixo está um fluxograma que descreve o processo de decisão utilizado para va
 
 ## 📌 Como Executar
 
-- **Instale as dependências**
+- **Instale o [Node.js](https://nodejs.org/en/)**
+
+Instale as dependências do projeto com o seguinte comando:
 ```sh
 npm install
 ```
 - **Execute os testes**
+
 Os testes foram desenvolvidos usando o framework Jest. Para validar a solução e garantir o funcionamento correto do código, rode o seguinte comando:
 
 
@@ -32,7 +35,7 @@ Os testes foram desenvolvidos usando o framework Jest. Para validar a solução 
 npm test
 ```
 - **Estrutura dos Testes**
-Os testes estão localizados no arquivo `recintos-zoo.test.js` e atende os seguintes requisitos:
+Os testes estão localizados no arquivo `recintos-zoo.test.js` e atendem os seguintes requisitos:
 1. Animal inválido: Valida se a função retorna erro quando um animal não cadastrado é solicitado.
 2. Quantidade inválida: Verifica a entrada de quantidades não permitidas.
 3. Recintos viáveis: Testa se a função retorna corretamente os recintos disponíveis para um animal específico e as específicas quantidades.
